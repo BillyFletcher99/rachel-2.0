@@ -10,7 +10,7 @@ body {
     width: auto;
     padding: 0;
     margin: 0;
-    background-color: rgb(23, 23, 23);
+    background-color: #29292a;
 }
 html{
     scroll-behavior: smooth;
@@ -60,3 +60,167 @@ a{
 B O O K - S E C T I O N
 #################################################
 */
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.books-header{
+    color: #68645b;
+    font-size: 60px;
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+    margin: 25px auto 25px auto;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: 1px;
+    align-items: center;
+    display: flex;
+    text-align: center !important;
+}
+.small-text-header{
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 30px;
+
+}
+.choose {
+    width: 100%;
+    height: 40px;
+}
+.book {
+    display: inline-block;
+    width: 230px;
+    height: 390px;
+    box-shadow: 0 0 20px #aaa;
+    margin: 25px;
+    padding: 10px 10px 0 10px;
+    vertical-align: top;
+    transition: height 1s;
+  }
+  /* star button */
+.book:after {
+    font-family: FontAwesome;
+    content: "\f006";
+    font-size: 35px;
+    position: relative;
+    left: -.1cm;
+    top: -1.6cm;
+    float: right;
+}
+  
+.cover {
+    border: 2px solid gray;
+    height: 80%;
+    overflow: hidden;
+}
+  
+  .cover img {
+    width: 100%;
+}
+  
+.book p {
+    margin-top: 12px;
+    font-size: 20px;
+}
+  
+.book .author {
+    font-size: 15px;
+}
+@media (max-width: 941px) {
+    .container {
+      max-width: 700px;
+    }
+    .book {
+      margin: 49px;
+    }
+}
+@media (max-width: 730px) {
+    .book {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+.cover {
+      
+    }
+}
+.line-break-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.upper-line{
+    border-bottom: 2px solid #726e65 !important;
+    border-image-source: linear-gradient(to right, #726e65, #726e65, #c5bfae, #726e65, #726e65);
+    border-image-slice: 20;
+    margin-left: -0px;
+    margin-right: -0px;
+}
+.line-break{
+    clear: both;
+    display: block;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*
+#################################################
+F O O T E R - S E C T I O N 
+#################################################
+*/
+#border-break{
+    background-size: 500% 500%;
+    opacity: 100;
+    height: 3px;
+    background: var(--rainbow-gradient);
+    display: flex;
+}
+.fusion-footer {
+    border-bottom: 0px;
+    border-image-source: linear-gradient(to right, #726e65, #726e65, #c5bfae, #726e65, #726e65);
+    border-image-slice: 20;
+    border-top: 5px solid #726e65;
+    border-left: 0px;
+    border-right: 0px;
+}
+.fusion-footer-widget-area {
+    background-color: #2c3339;
+    border-color: #2c3339;
+    border-top-width: 12px;
+    padding-top: 60px;
+    padding-bottom: 55px;
+  }
+.fusion-footer-widget-area {
+    position: relative;
+    padding: 43px 10px 40px;
+    border-top: 12px solid #e9eaee;
+    border-top-color: rgb(233, 234, 238);
+    border-top-width: 12px;
+    background: #363839;
+    background-color: rgb(54, 56, 57);
+    color: #8c8989;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    line-height: 1.69;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #726d63;
+  }
+  .fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+  }
+.footer-monogram{
+    height: 80px !important;
+    width: auto;
+    float: right !important;
+}

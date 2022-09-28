@@ -89,12 +89,12 @@ H O M E - S E C T I O N
     right: 10%;
 }
 .headings{
-    font-size: 2.5rem;
+    font-size: 44px;
     margin: 40px 0px;
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 500;
     line-height: 1.5;
     text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 .headings br {
 	display: block;
@@ -133,6 +133,22 @@ A B O U T - S E C T I O N
 N E W - R E L E A S E S
 #################################################
 */
+.line-break-box-releases{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+}
+.line-break-above-releases{
+    clear: both;
+    display: block;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+    overflow: hidden;
+}
 #new-releases{
     display: flex;
     flex-direction: column;
@@ -140,6 +156,38 @@ N E W - R E L E A S E S
     color: white;
     align-items: center;
     padding: 20px;
+}
+.left-book-float{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30.6666%;
+    margin-right: 4%;
+    position: relative;
+    float: left;
+}
+.book-float-wrapper{
+    padding: 0px 0px 0px 0px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 0 !important;
+
+}
+.book-highlight-frame-popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: opacity .35s;
+    transition: opacity .35s;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    opacity: 0;
 }
 .gallery{
     display: flex;
