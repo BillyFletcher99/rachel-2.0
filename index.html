@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index-js.js"></script>
     <link rel="stylesheet" href="CSS\style.css">
+
     <title>Home - Rachel Hubert</title>
 </head>
 <body>
@@ -21,19 +23,26 @@
             </nav>
         </div>
     </header>
-    <section id="home">
+    <section id="home" class="home">
+        <img src="" alt="" height="auto" width="auto" class="banner">
         <div class="main">
             <h1 class="headings">I AM <br> RACHEL HUBERT</h1>
         </div>
     </section>
 
     <section id="about">
-        <h1 class="headings">ABOUT ME</h1>
+        <div class="wrapper">
+            <div class="typing-demo">
+              About Me.
+            </div>
+        </div>
+
+
         <div class="picture">
             <img src="img\rachel.jpg" alt="rachel" id="rachel">
             <div id="intro">
-                <h2>RACHEL HUBERT</h2>
-                <p>Lorem ipsum dolor sit amet consectetur 
+                <h2 clas="about-me-heading">RACHEL HUBERT</h2>
+                <p class="about-me-text">Lorem ipsum dolor sit amet consectetur 
                     adipisicing elit. Ullam veritatis 
                     voluptas necessitatibus earum odit eos? 
                     Enim omnis, sint illo, suscipit, ab eius 
@@ -42,36 +51,80 @@
                     voluptas est! Delectus consequuntur quos, ipsa 
                     dolores dolorem velit, voluptatum nam expedita non odit 
                     eius similique? Odio, incidunt.</p>
+                    <div>
+                        <br><p class="about-me-text">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Ullam veritatis 
+                            voluptas necessitatibus earum odit eos? 
+                            Enim omnis, sint illo, suscipit, ab eius 
+                            similique aliquid modi deserunt commodi 
+                            quas corrupti inventore ratione repudiandae 
+                            voluptas est! Delectus consequuntur quos, ipsa 
+                            dolores dolorem velit, voluptatum nam expedita non odit 
+                            eius similique? Odio, incidunt.</p>
+
+                    </div>
+                    <div>
+                        <br><p class="about-me-text">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Illum facilis dolorem, minus nihil voluptas deleniti,
+                             officiis at commodi placeat aliquid sequi neque! Sequi nihil impedit nisi 
+                             corrupti, minus odio veritatis maxime animi eaque, fugiat vitae ut eos iusto
+                              dolore eligendi laudantium alias excepturi natus tempora sunt distinctio provident.
+                               Aliquid, illum!.</p>
+
+                    </div>
+                    <div>
+                        <br><p class="about-me-text">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Eum, nisi optio quas nulla magni, 
+                            autem aut animi deleniti temporibus officia accusamus 
+                            doloribus dignissimos impedit veritatis alias! Perspiciatis
+                             qui voluptatem expedita molestias esse officiis numquam 
+                             beatae laudantium assumenda quasi similique, facilis est
+                              dignissimos porro illo neque ex nemo dicta! Velit deleniti 
+                              a reiciendis quas illo sit odit? Sed ut, culpa eos ullam
+                               ducimus cupiditate unde aliquam similique molestias laborum
+                                porro nam magni aliquid, praesentium commodi. Sint reprehenderit quis, 
+                                voluptatum id nam suscipit vel, qui deleniti adipisci perferendis 
+                                distinctio ducimus esse, obcaecati nisi corporis culpa cupiditate ut?
+                                 Voluptatum a dolorem tenetur. Laudantium.</p>
+
+                    </div>
             </div>
         </div>
     </section>
 
     <div class="line-break-above-releases"></div>
-    <div class="line-break-box-releases" 
-    style="margin-left: auto;margin-right: auto;margin-top:30px;margin-bottom:30px;"></div>
+    <div class="line-break-box-releases"></div>
 
     <section id="new-releases">
         <h1 class="headings">NEW RELEASES</h1>
         <div class="line-break-above-releases"></div>
-        <div class="line-break-box-releases" 
-        style="margin-left: auto;margin-right: auto;margin-top:30px;margin-bottom:30px;"></div>
-        <div class="left-book-float" style="margin-top:0px;margin-bottom:0px;width:30.6666%; margin-right: 4%;">
-            <div class="book-float-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-                <div class="imageframe-liftup fusion-imageframe-liftup-right"><span class="fusion-imageframe imageframe-bottomshadow imageframe-3 element-bottomshadow retina-ps">
-                    <div class="book-highlight-frame-popup">
-                        <span class="fusion-imageframe imageframe-bottomshadow imageframe-3 element-bottomshadow retina-ps"><a class="fusion-no-lightbox" href="img\ebook.jpg" target="_self" aria-label="the-lives-of-saints-600"><img src="img\ebook.jpg" alt="Rachel Huberts Debt Collector" class="img-responsive wp-image-12263" srcset="img\ebook.jpg 200w, img\ebook.jpg 600w" sizes="(max-width: 800px) 100vw, 400px" width="600" height="903"></a></span></div>
-
-            </div>
+        <h2>The Debt Collector</h2>
+        <div class="grid">
+          <figure class="effect-julia">
+            <img src="img\ebook.jpg" alt="img21" />
+            <figcaption>
+              <h2>The Debt Collector</h2>
+              <div>
+                <p>It was many and many a year ago</p>
+                <p>In a kingdom by the sea</p>
+                <p>That a maiden there lived whom you may know
+                    By the name of Annabel Lee; </p>
+              </div>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
         </div>
-    </section>
+      </section>
 
 						
-    <footer role="contentinfo" class="fusion-footer-widget-area fusion-widget-area">
+      <footer role="contentinfo" class="fusion-footer-widget-area fusion-widget-area">
         <div class="fusion-row">
             <div class="fusion-columns fusion-columns-2 fusion-widget-area">
                 <div style="clear:both;"></div>
-                </section>
-                <section id="text-14" class="fusion-footer-widget-column widget widget_text">
+                <section id="text-14" class="fusion-footer-widget-column widget widget_text"></section>
+                <div class="contact-img">
+                    <img src="img\Mongram.png" alt="" class="footer-monogram">
+                </div>
                     <div class="textwidget">
                         <p>© Copyright <script>
                                 document.write(new Date().getFullYear());

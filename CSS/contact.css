@@ -195,7 +195,6 @@ F O O T E R - S E C T I O N
     padding-bottom: 55px;
   }
 .fusion-footer-widget-area {
-    overflow: hidden;
     position: relative;
     padding: 43px 10px 40px;
     border-top: 12px solid #e9eaee;
@@ -218,5 +217,11 @@ F O O T E R - S E C T I O N
     margin: 0 auto;
     zoom: 1;
   }
+.footer-monogram{
+    height: 80px !important;
+    width: auto;
+    float: right !important;
+}
+
 
 
