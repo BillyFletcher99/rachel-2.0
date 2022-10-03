@@ -193,7 +193,7 @@ F O O T E R - S E C T I O N
     border-top-width: 12px;
     padding-top: 60px;
     padding-bottom: 55px;
-  }
+}
 .fusion-footer-widget-area {
     position: relative;
     padding: 43px 10px 40px;
@@ -212,16 +212,69 @@ F O O T E R - S E C T I O N
     padding-left: 30px;
     padding-right: 30px;
     color: #726d63;
-  }
-  .fusion-row {
+}
+.fusion-row {
     margin: 0 auto;
     zoom: 1;
-  }
+}
 .footer-monogram{
     height: 80px !important;
     width: auto;
     float: right !important;
 }
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
 
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #726d63;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
 
 
