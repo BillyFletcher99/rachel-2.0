@@ -1,4 +1,4 @@
-# Title Rachel Writer Page
+# Rachel Writer Page
 
 **THIS ONLY DEPLOYS CORRECTLY VIA FIREFOX AT THE MOMENT**
 **DOESN'T VEIW CORRECTLY ON OTHER BROWSERS, NEED TO LOOK INTO THAT**
@@ -18,9 +18,5 @@ This is a page made for Rachel and her soon to be released self published book
 
 - [Problems](#Problems)
 -Page is only loading correctly on firefox, need to look into that
-
-## To-do
-
-### Problems
 
 ## Author
