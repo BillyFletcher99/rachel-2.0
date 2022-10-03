@@ -9,14 +9,14 @@ This is a page made for Rachel and her soon to be released self published book
 
 ## Table of Contents
 
-- [Anchors](#To-do)
+- [To-do](#To-do)
 -Get a unified colour scheme from Rachel
 -Set email to connect to her email of choice once live
 -Add some revised responsive features
 -Finish Book html portion
 -finish front page
 
-- [Quantifiers](#Problems)
+- [Problems](#Problems)
 -Page is only loading correctly on firefox, need to look into that
 
 ## To-do
